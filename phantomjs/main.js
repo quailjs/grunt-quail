@@ -1,8 +1,8 @@
 /*
- * grunt-lib-phantomjs
- * http://gruntjs.com/
+ * grunt-quail
+ * http://quailjs.org/
  *
- * Copyright (c) 2012 "Cowboy" Ben Alman, contributors
+ * Copyright (c) 2014 Kevin Miller, contributors
  * Licensed under the MIT license.
  */
 
