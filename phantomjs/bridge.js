@@ -11,11 +11,13 @@ function sendMessage() {
 	var args = [].slice.call(arguments);
 	alert(JSON.stringify(args));
 }
+
 var options = window.gruntQuailOptions;
 if(typeof options.accessibilityTests === 'undefined' &&
 		typeof options.accessibilityGuideline === 'undefined') {
 	sendMessage('quail.error', 'No accessibility tests defined');
 }
+
 var quailOptions = {
 	jsonPath : options.quailPath,
 	guideline : options.accessibilityTests,
