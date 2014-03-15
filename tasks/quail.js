@@ -19,7 +19,7 @@ module.exports = function(grunt) {
   phantomjs.on('quail.error', function(msg) {
     grunt.log.error(msg);
   });
-
+  
   phantomjs.on('quail.fail', function(msg) {
     grunt.log.error(msg);
   });
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
     // This task is async.
     var done = this.async();
     grunt.util.async.forEachSeries(urls, function(url, next) {
-      
+      grunt.log.writeln(url);
       grunt.event.emit('quail.spawn', url);
       phantomjs.spawn(url, {
         // Additional PhantomJS options.
