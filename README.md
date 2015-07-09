@@ -3,7 +3,7 @@ grunt-quail
 
 > Accessibility testing for your Grunt workflow.
 
-This task is similar to [Qunit for Grunt](https://github.com/gruntjs/grunt-contrib-qunit) in that it loads a list of files and using PhantomJS tests them for accessibility with the [Quail accessibility plugion](http://quailjs.org).
+This task is similar to [Qunit for Grunt](https://github.com/gruntjs/grunt-contrib-qunit) in that it loads a list of files and using PhantomJS tests them for accessibility with the [Quail accessibility plugin](http://quailjs.org).
 
 Getting started
 ---
